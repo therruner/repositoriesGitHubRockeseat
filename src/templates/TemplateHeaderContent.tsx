@@ -33,7 +33,7 @@ export function TemplateHeaderContent({ header, content }: TemplateRepository) {
                     <div>
                         Projeto do curso ignite da rockeseat © 2021 - 2023
                         <br />
-                       Aluno Marcos Augusto Rodrigues 
+                        Aluno Marcos Augusto Rodrigues
                     </div>
 
                 </footer>

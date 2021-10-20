@@ -17,8 +17,6 @@ export function RepositoryList() {
             .then(reponse => reponse.json())
             .then(data => setRepositories(data))
     }, [])
-    // Cuidado para não deixar sem o segundo parametro , pode causar um LOOPING 
-    // Não Atualizar uma variavél que esteja sendo "monitorada" no useEffect
 
     return (
         <section className="repository-List">

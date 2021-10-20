@@ -1,8 +1,6 @@
-import { ArrowRightOutlined, MessageOutlined } from '@ant-design/icons';
-import { Tooltip } from 'antd';
+import { ArrowRightOutlined } from '@ant-design/icons';
 
 import '../styles/repositoryItem.scss'
-// import { Icon, Tooltip } from 'antd';
 
 interface RepositoryItemProps {
     repository: {
