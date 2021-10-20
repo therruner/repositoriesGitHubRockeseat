@@ -1,0 +1,146 @@
+div.header {
+    flex: 1;
+    max-width: 1200px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: block;
+    background: rgba(252, 216, 216, 0.6);
+}
+
+nav {
+    display: block;
+}
+
+.interna .header {
+    background: #0E1013;
+    position: relative;
+}
+
+.header_nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interna .repositorios .section-title {
+    background: #131518;
+    padding: 1.875rem;
+}
+.section-title {
+    text-align: center;
+    color: #ffffff;
+}
+div {
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.repositorios-wrapper {
+    max-width: 1200px;
+    margin: 3.75rem auto 2.5rem auto;
+    position: relative;
+    padding: 0 1.25rem;
+}
+
+
+.interna .repositorios {
+    background: #1B1D20;
+}
+.cursos {
+    padding-bottom: 3.75rem
+;
+    background: #1B1D20;
+}
+section {
+    display: block;
+}
+
+
+
+/* Estilo Menu Responsivo */
+.continuar_mobile {
+    display: none;
+  }
+@media only screen and (max-width: 759px) {
+  .continuar_mobile {
+    display: block;
+  }
+}
+
+.header_nav h2 {
+    display: inline-block;
+    padding: 0.625rem;
+    font-size: 1.125rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #f1f1f1;
+}
+
+.header_nav div {
+    background: #282A2D;
+    border-radius: 4px;
+    height: 70%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_nav div:hover {
+    background: #8257e6;
+    transition: background 0.2s ease 0s, color 0.2s ease 0s;
+}
+
+.section-title p {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    font-family: "IBMPlexMonoItalic", monospace;
+    letter-spacing: -.01rem;
+    font-style: italic;
+    color: #b0b2b3;
+    display: inline-block;
+    margin-top: 12px;
+    position: relative;
+    z-index: 100;
+}
+
+.section-title h1 {
+    font-size: 1.5rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#9B30F9), to(#84e));
+    background-image: linear-gradient(#9B30F9, #84e);
+    padding: 2.875rem;
+    font-size: 0.875rem;
+    line-height: 1.55;
+    font-family: "IBMPlexMonoItalic", monospace;
+    letter-spacing: -.01rem;
+    font-style: italic;
+    color: #b0b2b3;
+    display: block;
+}
+
+

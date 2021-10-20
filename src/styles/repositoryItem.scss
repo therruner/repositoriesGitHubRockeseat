@@ -1,0 +1,103 @@
+.repositorios_item.animate::before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.repositorios_item-li {
+ 
+    & + li {
+        margin-top: 20px;
+    }
+
+    display: block;
+    background: #0E1013;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgb(0, 0, 0 / 50%);
+    padding: 8px 8px 0px ;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    position: relative;
+   
+}
+
+.repositorios_item-li a:hover {
+        background:  rgb(255, 255, 255);
+        color: rgb(130, 87, 229);
+        transition: background 0.2s ease 0s, color 0.2s ease 0s;
+        height: 42px;
+        width: 42px;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    background: rgb(130, 87, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+    background: rgb(130, 87, 229);
+    border-radius: 20px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.repositorios_item_tooltip {
+    visibility: hidden;
+    position: absolute;
+    z-index: 200;
+    background: #282A2D;
+    color: white;
+    top: 100px;
+    left: 20px;
+    width: 240px;
+    padding: 0.9375rem;
+    border-radius: 4px;
+}
+
+.curso_tooltip::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #282A2D;
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-radius: 4px 0 0 0;
+    top: -10px;
+    left: 20px;
+}
+
+
+
+.repositorios_item-li span.meta {
+    font-size: 0.875rem;
+    line-height: 1.55;
+    font-family: "IBMPlexMonoItalic", monospace;
+    letter-spacing: -.01rem;
+    font-style: italic;
+    color: #b0b2b3;
+    display: inline-block;
+    margin-top: 12px;
+    position: relative;
+    z-index: 100;
+}
+
+.repositorios_item-li span.meta .messageOutlined {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
